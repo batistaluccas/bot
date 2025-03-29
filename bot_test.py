@@ -3,7 +3,7 @@ from selenium import webdriver
 import time 
 
 navegador = webdriver.Chrome()
-navegador.get('https://login.cat.com/')
+navegador.get('https://login.site.com/')
 navegador.maximize_window()
 
 input_login = navegador.find_element('class name', 'cwsuid-input-field')
